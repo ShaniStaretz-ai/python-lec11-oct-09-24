@@ -2,10 +2,13 @@
 
 ## subjects learned:
 
-1) function all() on List:
+1) function all() on List (like every() in js):
+
    receive a list of boolean values and returns True if all values are True, else returns False.
     * same for [1,0,1,True,2<2]
-2) function any() on list: returns True if at **least one** is True
+2) function any() on list (like some() in js): 
+
+   receive a list of boolean values and returns True if at **least one** is True
 3) Strings-Functions:
     * len(string)- size of the string
       after the string:
@@ -20,7 +23,7 @@
     * split() - creates and returns a new list from the origin string by the given char. if not giving the char, the
       default is space ' '
     * join()- receive a list, separator and returned a new string:
-      oldString,'separator'.join((toJoinString))
+      [oldString],'separator'.join((toJoinString))
     * startwith(searchString),endswith(searchString)- returns true if the string starts with the searchString.
     * endswith(searchString)- returns true if the string ends with the searchString.
     * capitalize()- capital only the first letter
