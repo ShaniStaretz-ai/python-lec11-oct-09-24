@@ -6,9 +6,9 @@ print("upper:", me.upper())
 # c
 print("lower:", me.lower())
 # d
-print("startswith:", me.startswith("Shani"))
+print("is startswith 'Shani':", me.startswith("Shani"))
 # e
-print("endswith:", me.endswith("Kfar Saba"))
+print("is endswith 'Kfar Saba':", me.endswith("Kfar Saba"))
 # f
 print("split:", me.split(" "))
 # g
