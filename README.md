@@ -35,7 +35,7 @@
     * capitalize()- capital only the first letter
     * title()- capital each first letter in the list
     * isalpha()- returns true if all chars are letters a-z and not numbers/ special letters
-    * isdigits()- returns true if all chars are digits 0-9
+    * isdigit()- returns true if all chars are digits 0-9
     * islower() - returns True if all chars are small letters
     * isupper()- returns True if all chars are capital letters
     * swapcase()- swap all letters from capital to lower and reverse.
