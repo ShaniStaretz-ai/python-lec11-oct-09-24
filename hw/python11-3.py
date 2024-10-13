@@ -11,6 +11,6 @@ print("join:", ''.join(['N', 'I', 'N', 'J', 'A']))
 # f
 print("join *:", '*'.join(['N', 'I', 'N', 'J', 'A']))
 # g
-print("is e in hELLo:", 'e' in 'hELLo'.lower())
+print("is e in hELLo:", 'e'.lower() in 'hELLo'.lower())
 # h
-print([l for l in input("Enter word:").upper() if l.isalpha()])
+print([l.upper() for l in input("Enter word:") if l.isalpha()])
